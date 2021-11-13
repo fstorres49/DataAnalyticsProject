@@ -1,0 +1,7 @@
+{
+  "name": "CodeChallengeND",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
