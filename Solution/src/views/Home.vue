@@ -2,7 +2,7 @@
   <ion-page>
     <ion-header :translucent="true">
       <ion-toolbar>
-        <ion-title>Blank</ion-title>
+        <ion-title>{{ title }}</ion-title>
       </ion-toolbar>
     </ion-header>
     
@@ -22,6 +22,7 @@
 </template>
 
 <script>
+import { mapState } from "vuex";
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/vue';
 import { defineComponent } from 'vue';
 
@@ -33,7 +34,10 @@ export default defineComponent({
     IonPage,
     IonTitle,
     IonToolbar
-  }
+  },
+  computed:{
+...mapState("data", ["title"])
+  },
 });
 </script>
 
