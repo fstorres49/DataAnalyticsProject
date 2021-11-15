@@ -2,16 +2,25 @@
   <ion-page>
     <ion-header>
       <ion-toolbar>
-        <ion-title>{{ title }}</ion-title>
+        <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title class="ion-text-center">{{
+          medianHomePricesTitle
+        }}</ion-title>
+        <ion-buttons slot="end">
+          <ion-icon
+            class="mhp-icon-margin-size"
+            href="https://www.github.com/fstorres49/DataAnalyticsProject/"
+            target="_blank"
+            :icon="logoGithub"
+          >
+          </ion-icon>
+        </ion-buttons>
       </ion-toolbar>
     </ion-header>
 
-    <ion-content :fullscreen="true">
-      <!-- <ion-header collapse="condense">
-        <ion-toolbar>
-          <ion-title size="large">Blank</ion-title>
-        </ion-toolbar>
-      </ion-header> -->
+    <ion-content>
       <div class="hv-tableau-visualization">
         <iframe
           frameborder="0"
@@ -26,26 +35,38 @@
 </template>
 
 <script>
+import { logoGithub } from "ionicons/icons";
 import { mapState } from "vuex";
 import {
+  IonButtons,
   IonContent,
   IonHeader,
+  IonIcon,
+  IonMenuButton,
   IonPage,
   IonTitle,
   IonToolbar,
 } from "@ionic/vue";
 import { defineComponent } from "vue";
 export default defineComponent({
-  name: "Home",
+  name: "MedianHomePrices",
   components: {
+    IonButtons,
     IonContent,
     IonHeader,
+    IonIcon,
+    IonMenuButton,
     IonPage,
     IonTitle,
     IonToolbar,
   },
+  setup() {
+    return {
+      logoGithub,
+    };
+  },
   computed: {
-    ...mapState("data", ["title"]),
+    ...mapState("data", ["medianHomePricesTitle"]),
   },
 });
 </script>
@@ -56,5 +77,9 @@ export default defineComponent({
   align-items: center;
   justify-content: center;
   margin: 15px 0px 0px -11px;
+}
+.mhp-icon-margin-size {
+  margin: 0px 10px 0px 0px;
+  font-size: 24px;
 }
 </style>

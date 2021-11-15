@@ -1,16 +1,30 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
-import Home from '../views/Home.vue'
 
 const routes = [
   {
     path: '/',
-    redirect: '/home'
+    redirect: '/overview'
   },
   {
-    path: '/home',
-    name: 'Home',
-    component: Home
-  }
+    path: '/overview',
+    component: () => import("../views/Overview.vue")
+  },
+  {
+    path: '/median-home-prices',
+    component: () => import("../views/MedianHomePrices.vue")
+  },
+  {
+    path: '/average-american-salary-estimate',
+    component: () => import("../views/AverageSalaryEstimate.vue")
+  },
+  {
+    path: '/monthly-mortgage-payment',
+    component: () => import("../views/MonthlyMortgagePayment.vue")
+  },
+  {
+    path: '/conclusions',
+    component: () => import("../views/Conclusions.vue")
+  },
 ]
 
 const router = createRouter({
