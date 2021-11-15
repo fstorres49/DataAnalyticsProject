@@ -19,18 +19,23 @@
       </ion-toolbar>
     </ion-header>
 
-    <ion-content>
+    <ion-content :fullscreen="true">
       <div class="overview-width">
-        <h1>Research Question</h1>
-        <p>
+        <h1 class="overview-titles-text-padding">Research Question</h1>
+        <p class="overview-titles-text-padding">
           Can an average American buy a house at current prices (by counties)?
+        </p>
+        <h1 class="overview-titles-text-padding">Visualizations</h1>
+        <p class="overview-titles-text-padding">
           To visualize our findings, please click on the top left hamburger menu
           and select the dashboard of your interest.
         </p>
-        <h1>Definitions</h1>
-        <p>Average American:</p>
-        <h1>Data</h1>
-        <p>This project uses data from...</p>
+        <h1 class="overview-titles-text-padding">Definitions</h1>
+        <p class="overview-titles-text-padding">Average American:</p>
+        <h1 class="overview-titles-text-padding">Data</h1>
+        <p class="overview-titles-text-padding">
+          This project uses data from...
+        </p>
       </div>
     </ion-content>
   </ion-page>
@@ -77,6 +82,9 @@ export default defineComponent({
 .overview-icon-margin-size {
   margin: 0px 10px 0px 0px;
   font-size: 24px;
+}
+.overview-titles-text-padding {
+  padding: 0px 0px 0px 15px;
 }
 @media screen and (min-width: 460px) {
   .overview-width {
