@@ -5,7 +5,9 @@
         <ion-buttons slot="start">
           <ion-menu-button></ion-menu-button>
         </ion-buttons>
-        <ion-title class="ion-text-center">{{ averageSalaryTitle }}</ion-title>
+        <ion-title class="ion-text-center">{{
+          mortgageAsPercOfSalary
+        }}</ion-title>
         <ion-buttons slot="end">
           <ion-button
             href="https://www.github.com/fstorres49/DataAnalyticsProject/"
@@ -28,14 +30,16 @@
           height="840"
         ></iframe>
       </div>
-
-      <div class="asev-width">
-        <h1 class="asev-titles-text-padding">
-          Annual Average Salary Before Taxes:
+      <div class="maposat-width">
+        <h1 class="maposat-titles-text-padding">
+          Mortgage as Percentage of Salary After Taxes:
         </h1>
-        <p class="asev-titles-text-padding"></p>
-        <h1 class="asev-titles-text-padding">Data:</h1>
-        <p class="asev-titles-text-padding">Bureau of Economic Analysis. U.S. Department of Commerce.</p>
+        <p class="maposat-titles-text-padding"></p>
+        <h1 class="maposat-titles-text-padding">Data:</h1>
+        <p class="maposat-titles-text-padding">
+          1. National Association of Realtors<br />
+          2. Bureau of Economic Analysis. U.S. Department of Commerce.
+        </p>
       </div>
     </ion-content>
   </ion-page>
@@ -57,7 +61,7 @@ import {
 } from "@ionic/vue";
 import { defineComponent } from "vue";
 export default defineComponent({
-  name: "AverageSalaryEstimate",
+  name: "MortgageAsPercOfSalaryAfterT",
   components: {
     IonButton,
     IonButtons,
@@ -75,7 +79,7 @@ export default defineComponent({
     };
   },
   computed: {
-    ...mapState("data", ["averageSalaryTitle"]),
+    ...mapState("data", ["mortgageAsPercOfSalary"]),
   },
 });
 </script>
@@ -87,27 +91,27 @@ export default defineComponent({
   justify-content: center;
   margin: 15px 0px 0px -11px;
 }
-.ave-icon-margin-size {
+.maposat-icon-margin-size {
   margin: 0px 10px 0px 0px;
   font-size: 24px;
 }
-.asev-titles-text-padding {
+.maposat-titles-text-padding {
   padding: 0px 15px 0px 15px;
 }
 @media screen and (min-width: 460px) {
-  .asev-width {
+  .maposat-width {
     width: 450px;
     margin: auto;
   }
 }
 @media screen and (min-width: 520px) {
-  .asev-width {
+  .maposat-width {
     width: 480px;
     margin: auto;
   }
 }
 @media screen and (min-width: 780px) {
-  .asev-width {
+  .maposat-width {
     width: 680px;
     margin: auto;
   }

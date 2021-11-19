@@ -22,6 +22,10 @@ const routes = [
     component: () => import("../views/MonthlyMortgagePayment.vue")
   },
   {
+    path: '/mortgage-percentage-salary-after-taxes',
+    component: () => import("../views/MortgageAsPercOfSalaryAfterT.vue")
+  },
+  {
     path: '/conclusions',
     component: () => import("../views/Conclusions.vue")
   },

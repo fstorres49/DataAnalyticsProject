@@ -11,6 +11,10 @@
         <ion-content>
           <ion-list>
             <ion-item @click="closer()" button router-link="/overview">
+              <ion-icon
+                class="app-icon-margin-size"
+                :icon="readerOutline"
+              ></ion-icon>
               Overview
             </ion-item>
             <ion-item
@@ -18,23 +22,52 @@
               button
               router-link="/median-home-prices"
             >
+              <ion-icon
+                class="app-icon-margin-size"
+                :icon="logoTableau"
+              ></ion-icon>
               Median Home Prices
-            </ion-item>
-            <ion-item
-              @click="closer()"
-              button
-              router-link="/average-american-salary-estimate"
-            >
-              Average Salary
             </ion-item>
             <ion-item
               @click="closer()"
               button
               router-link="/monthly-mortgage-payment"
             >
+              <ion-icon
+                class="app-icon-margin-size"
+                :icon="logoTableau"
+              ></ion-icon>
+
               Mortgage Payment
             </ion-item>
+            <ion-item
+              @click="closer()"
+              button
+              router-link="/average-american-salary-estimate"
+            >
+              <ion-icon
+                class="app-icon-margin-size"
+                :icon="logoTableau"
+              ></ion-icon>
+              Average Salary
+            </ion-item>
+            <ion-item
+              @click="closer()"
+              button
+              router-link="/mortgage-percentage-salary-after-taxes"
+            >
+              <ion-icon
+                class="app-icon-margin-size"
+                :icon="logoTableau"
+              ></ion-icon>
+              Mortgage as % of Salary
+            </ion-item>
+
             <ion-item @click="closer()" button router-link="/conclusions">
+              <ion-icon
+                class="app-icon-margin-size"
+                :icon="readerOutline"
+              ></ion-icon>
               Conclusions
             </ion-item>
             <ion-item
@@ -59,7 +92,7 @@
 </template>
 
 <script>
-import { logoGithub } from "ionicons/icons";
+import { logoGithub, logoTableau, readerOutline } from "ionicons/icons";
 import { defineComponent } from "vue";
 import {
   IonApp,
@@ -95,6 +128,8 @@ export default defineComponent({
   setup() {
     return {
       logoGithub,
+      logoTableau,
+      readerOutline,
     };
   },
   methods: {
