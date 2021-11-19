@@ -7,13 +7,13 @@
         </ion-buttons>
         <ion-title class="ion-text-center">{{ conclusionsTitle }}</ion-title>
         <ion-buttons slot="end">
-          <ion-icon
-            class="conclusions-icon-margin-size"
+          <ion-button
             href="https://www.github.com/fstorres49/DataAnalyticsProject/"
             target="_blank"
-            :icon="logoGithub"
           >
-          </ion-icon>
+            <ion-icon class="ave-icon-margin-size" :icon="logoGithub">
+            </ion-icon>
+          </ion-button>
         </ion-buttons>
       </ion-toolbar>
     </ion-header>
@@ -25,8 +25,16 @@
           style="border: 0"
           src="https://public.tableau.com/views/Avg_SalarybyCounty2021Estimate/Dashboard1?:showVizHome=no&:embed=true"
           width="1176"
-          height="1000"
+          height="840"
         ></iframe>
+      </div>
+      <div class="cv-width">
+        <h1 class="cv-titles-text-padding">
+          Conclusions:
+        </h1>
+        <p class="cv-titles-text-padding"></p>
+        <h1 class="cv-titles-text-padding">Data:</h1>
+        <p class="cv-titles-text-padding"><br /></p>
       </div>
     </ion-content>
   </ion-page>
@@ -36,6 +44,7 @@
 import { logoGithub } from "ionicons/icons";
 import { mapState } from "vuex";
 import {
+  IonButton,
   IonButtons,
   IonContent,
   IonHeader,
@@ -49,6 +58,7 @@ export default defineComponent({
   name: "Conclusions",
   components: {
     IonButtons,
+    IonButton,
     IonContent,
     IonHeader,
     IonMenuButton,
@@ -77,5 +87,26 @@ export default defineComponent({
 .conclusions-icon-margin-size {
   margin: 0px 10px 0px 0px;
   font-size: 24px;
+}
+.cv-titles-text-padding {
+  padding: 0px 15px 0px 15px;
+}
+@media screen and (min-width: 460px) {
+  .cv-width {
+    width: 450px;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 520px) {
+  .cv-width {
+    width: 480px;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 780px) {
+  .cv-width {
+    width: 680px;
+    margin: auto;
+  }
 }
 </style>

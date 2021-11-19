@@ -9,13 +9,13 @@
           mortgagePaymentTitle
         }}</ion-title>
         <ion-buttons slot="end">
-          <ion-icon
-            class="mmp-icon-margin-size"
+          <ion-button
             href="https://www.github.com/fstorres49/DataAnalyticsProject/"
             target="_blank"
-            :icon="logoGithub"
           >
-          </ion-icon>
+            <ion-icon class="ave-icon-margin-size" :icon="logoGithub">
+            </ion-icon>
+          </ion-button>
         </ion-buttons>
       </ion-toolbar>
     </ion-header>
@@ -25,10 +25,22 @@
         <iframe
           frameborder="0"
           style="border: 0"
-          src="https://public.tableau.com/views/Avg_SalarybyCounty2021Estimate/Dashboard1?:showVizHome=no&:embed=true"
+          src="https://public.tableau.com/views/Book1_16373379984590/Dashboard1?:showVizHome=no&:embed=true"
           width="1176"
-          height="1000"
+          height="840"
         ></iframe>
+      </div>
+
+      <div class="mmpv-width">
+        <h1 class="mmpv-titles-text-padding">Monthly Mortgage Payment:</h1>
+        <p class="mmpv-titles-text-padding"></p>
+        <h1 class="mmpv-titles-text-padding">Citation:</h1>
+        <p class="mmpv-titles-text-padding">
+          Copyright ©2021 “County Median Home Prices and Monthly Mortgage
+          Payment.” NATIONAL ASSOCIATION OF REALTORS®. All rights reserved.
+          Reprinted with permission. Q2, 2021,
+          https://www.nar.realtor/research-and-statistics/housing-statistics/county-median-home-prices-and-monthly-mortgage-payment<br />
+        </p>
       </div>
     </ion-content>
   </ion-page>
@@ -38,6 +50,7 @@
 import { logoGithub } from "ionicons/icons";
 import { mapState } from "vuex";
 import {
+  IonButton,
   IonButtons,
   IonContent,
   IonHeader,
@@ -51,6 +64,7 @@ import { defineComponent } from "vue";
 export default defineComponent({
   name: "MonthlyMortgagePayment",
   components: {
+    IonButton,
     IonButtons,
     IonContent,
     IonHeader,
@@ -81,5 +95,26 @@ export default defineComponent({
 .mmp-icon-margin-size {
   margin: 0px 10px 0px 0px;
   font-size: 24px;
+}
+.mmpv-titles-text-padding {
+  padding: 0px 15px 0px 15px;
+}
+@media screen and (min-width: 460px) {
+  .mmpv-width {
+    width: 450px;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 520px) {
+  .mmpv-width {
+    width: 480px;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 780px) {
+  .mmpv-width {
+    width: 680px;
+    margin: auto;
+  }
 }
 </style>
