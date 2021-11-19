@@ -9,6 +9,7 @@
 
         <ion-buttons slot="end">
           <ion-button
+            color="dark"
             href="https://www.github.com/fstorres49/DataAnalyticsProject/"
             target="_blank"
           >
@@ -40,16 +41,16 @@
           jurors, expert legal witnesses, prisoners, and justices of the peace
           (for marriage fees), is counted in wages and salaries, these
           activities are not counted as jobs in wage and salary employment.
-          <br />Corporate directorships are counted as self-employment. The following
-          description of the sources and methods used in estimating wage and
-          salary employment is divided into two sections: Employment in
+          <br />Corporate directorships are counted as self-employment. The
+          following description of the sources and methods used in estimating
+          wage and salary employment is divided into two sections: Employment in
           industries covered by unemployment insurance (UI) programs, and
           employment in industries not covered by UI. (Bureau of Economic
           Analysis. U.S. Department of Commerce.)<br />
           <br />
-          Median Home Price: <br /><br />Median home value for the 2nd quarter of 2021
-          was estimated for each county. Home values represent the value of all
-          homes instead of home sales. Base Price Subject to Population
+          Median Home Price: <br /><br />Median home value for the 2nd quarter
+          of 2021 was estimated for each county. Home values represent the value
+          of all homes instead of home sales. Base Price Subject to Population
           Threshold:<br />
           The most recent American Community Survey (ACS) data was used, subject
           to ACS population thresholds. This means that for counties with
@@ -59,12 +60,13 @@
           1-year ACS estimates were used. (National Association of Realtors).
           <br />
           <br />
-          Monthly Mortgage Payment:<br /> <br />A 10% down payment was used to
-          calculate the monthly mortgage payment assuming a 30-year fixed-rate
-          fully amortizing mortgage. Mortgage payments in this study include
-          only principal and interest payments; actual payments, which are
-          likely to include escrow payments for insurance and taxes, may be
-          higher. (National Association of Realtors).
+          Monthly Mortgage Payment:<br />
+          <br />A 10% down payment was used to calculate the monthly mortgage
+          payment assuming a 30-year fixed-rate fully amortizing mortgage.
+          Mortgage payments in this study include only principal and interest
+          payments; actual payments, which are likely to include escrow payments
+          for insurance and taxes, may be higher. (National Association of
+          Realtors).
         </p>
         <h1 class="overview-titles-text-padding">Data</h1>
         <p class="overview-titles-text-padding">

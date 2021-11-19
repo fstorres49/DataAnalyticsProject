@@ -8,6 +8,7 @@
         <ion-title class="ion-text-center">{{ averageSalaryTitle }}</ion-title>
         <ion-buttons slot="end">
           <ion-button
+            color="dark"
             href="https://www.github.com/fstorres49/DataAnalyticsProject/"
             target="_blank"
           >
@@ -35,7 +36,9 @@
         </h1>
         <p class="asev-titles-text-padding"></p>
         <h1 class="asev-titles-text-padding">Data:</h1>
-        <p class="asev-titles-text-padding">Bureau of Economic Analysis. U.S. Department of Commerce.</p>
+        <p class="asev-titles-text-padding">
+          Bureau of Economic Analysis. U.S. Department of Commerce.
+        </p>
       </div>
     </ion-content>
   </ion-page>

@@ -10,6 +10,7 @@
         }}</ion-title>
         <ion-buttons slot="end">
           <ion-button
+            color="dark"
             href="https://www.github.com/fstorres49/DataAnalyticsProject/"
             target="_blank"
           >
