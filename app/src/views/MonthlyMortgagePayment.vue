@@ -33,14 +33,18 @@
       </div>
 
       <div class="mmpv-width">
-        <h1 class="mmpv-titles-text-padding">Monthly Mortgage Payment:</h1>
+        <h1 class="mmpv-titles-text-padding">Monthly Mortgage Payment</h1>
         <p class="mmpv-titles-text-padding"></p>
-        <h1 class="mmpv-titles-text-padding">Citation:</h1>
+        <h1 class="mmpv-titles-text-padding">Citation</h1>
         <p class="mmpv-titles-text-padding">
           Copyright ©2021 “County Median Home Prices and Monthly Mortgage
           Payment.” NATIONAL ASSOCIATION OF REALTORS®. All rights reserved.
           Reprinted with permission. Q2, 2021,
-          https://www.nar.realtor/research-and-statistics/housing-statistics/county-median-home-prices-and-monthly-mortgage-payment<br />
+          <a
+            href="https://www.nar.realtor/research-and-statistics/housing-statistics/county-median-home-prices-and-monthly-mortgage-payment"
+            target="_blank"
+            >https://www.nar.realtor/research-and-statistics/housing-statistics/county-median-home-prices-and-monthly-mortgage-payment</a
+          ><br />
         </p>
       </div>
     </ion-content>

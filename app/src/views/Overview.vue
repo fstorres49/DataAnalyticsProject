@@ -26,6 +26,45 @@
         <p class="overview-titles-text-padding">
           Can an average american buy a house at current prices by counties?
         </p>
+        <h1 class="overview-titles-text-padding">Methodology</h1>
+        <p class="overview-titles-text-padding">
+          In order to answer the research question we performed an interval
+          analysis. <br />First, we obtained the wages and salaries (US dollars)
+          and the wage and salary employment (number of jobs) from 2010 to 2019
+          from the Regional Economic Accounts (CAINC4) of the
+          <a
+            href="https://apps.bea.gov/regional/downloadzip.cfm"
+            target="_blank"
+            >Bureau of Economic Analysis - U.S Department of Commerce</a
+          >. <br /><br />Second, we extrapolated using a linear regression to
+          obtain the 2021 data of wage and salaries and wage and salary
+          employment. We divided both results and obtained the annual average
+          salary by county before taxes for 2021. <br /><br />Third, we used the
+          <a
+            href="https://smartasset.com/taxes/paycheck-calculator"
+            target="_blank"
+          >
+            Asset Federal Paycheck Calculator</a
+          >
+          and assumed that the marital status of the average american is single,
+          gets paid monthly, has a salary and is not exempt from taxes. Then, we
+          developed an script that uses as an input the average salary before
+          taxes that we calculated before and extracts the monthly "take home
+          salary" from the calculator.
+          <br /><br />Finally, we divided the monthly mortgage payment for Q2
+          2021, obtained from the
+          <a href="https://www.nar.realtor/" target="_blank">
+            National Association of Realtors</a
+          >, by the monthly "take home salary" to obtain the monthly mortgage
+          payment as percentage of the monthly average salary after taxes. The
+          interval analysis can be visualized in the Tableau Dashboard
+          <a
+            href="https://canamericansbuyahouse2021.netlify.app/mortgage-percentage-salary-after-taxes"
+            target="_blank"
+            >"Mortgage as a Percentage of Salary"</a
+          >
+          from the menu on the top left corner of this web.
+        </p>
         <h1 class="overview-titles-text-padding">Visualizations</h1>
         <p class="overview-titles-text-padding">
           To visualize our findings, please click on the top left hamburger menu
@@ -33,39 +72,56 @@
         </p>
         <h1 class="overview-titles-text-padding">Definitions</h1>
         <p class="overview-titles-text-padding">
-          Average American:<br /><br />
-          Americans who have wage and salary employment, also referred to as
-          wage and salary jobs, measures the average annual number of full-time
-          and part-time jobs in each area by place of work. All jobs for which
-          wages and salaries are paid are counted. Although compensation paid to
-          jurors, expert legal witnesses, prisoners, and justices of the peace
-          (for marriage fees), is counted in wages and salaries, these
-          activities are not counted as jobs in wage and salary employment.
-          <br />Corporate directorships are counted as self-employment. The
-          following description of the sources and methods used in estimating
-          wage and salary employment is divided into two sections: Employment in
-          industries covered by unemployment insurance (UI) programs, and
-          employment in industries not covered by UI. (Bureau of Economic
-          Analysis. U.S. Department of Commerce.)<br />
+          <strong> Average American: </strong><br /><br />
+          American who receives Wages and Salaries.<br />
           <br />
-          Median Home Price: <br /><br />Median home value for the 2nd quarter
-          of 2021 was estimated for each county. Home values represent the value
-          of all homes instead of home sales. Base Price Subject to Population
-          Threshold:<br />
+          <strong> Wages and Salaries:</strong><br /><br />
+          The remuneration receivable by employees (including corporate
+          officers) from employers for the provision of labor services. It
+          includes commissions, tips, and bonuses; employee gains from
+          exercising stock options; and pay-in-kind. Judicial fees paid to
+          jurors and witnesses are classified as wages and salaries. Wages and
+          salaries are measured before deductions, such as social security
+          contributions, union dues, and voluntary employee contributions to
+          defined contribution pension plans (Bureau of Economic Analysis. U.S.
+          Department of Commerce).<br />
+          <br />
+          <strong>Wage and salary employment:</strong><br /><br />
+          Wage and salary employment, also referred to as wage and salary jobs,
+          measures the average annual number of full-time and part-time jobs in
+          each area by place of work. All jobs for which wages and salaries are
+          paid are counted. Although compensation paid to jurors, expert legal
+          witnesses, prisoners, and justices of the peace (for marriage fees),
+          is counted in wages and salaries, these activities are not counted as
+          jobs in wage and salary employment.<br />
+          Corporate directorships are counted as self-employment. The following
+          description of the sources and methods used in estimating wage and
+          salary employment is divided into two sections: Employment in
+          industries covered by unemployment insurance (UI) programs, and
+          employment in industries not covered by UI (Bureau of Economic
+          Analysis. U.S. Department of Commerce).<br />
+          <br />
+          <strong> House at current prices: </strong><br /><br />
+          Median Home Price.<br />
+          <br />
+          <strong>Median Home Price: </strong><br /><br />Median home value for
+          the 2nd quarter of 2021 was estimated for each county. Home values
+          represent the value of all homes instead of home sales. Base Price
+          Subject to Population Threshold:<br />
           The most recent American Community Survey (ACS) data was used, subject
           to ACS population thresholds. This means that for counties with
           population less than 65,000, the 5-year ACS estimates were used for
           the price calculations. Respectively, for counties which have a
           population at or exceeding the population threshold of 65,000, the
-          1-year ACS estimates were used. (National Association of Realtors).
+          1-year ACS estimates were used (National Association of Realtors).
           <br />
           <br />
-          Monthly Mortgage Payment:<br />
+          <strong>Monthly Mortgage Payment:</strong><br />
           <br />A 10% down payment was used to calculate the monthly mortgage
           payment assuming a 30-year fixed-rate fully amortizing mortgage.
           Mortgage payments in this study include only principal and interest
           payments; actual payments, which are likely to include escrow payments
-          for insurance and taxes, may be higher. (National Association of
+          for insurance and taxes, may be higher (National Association of
           Realtors).
         </p>
         <h1 class="overview-titles-text-padding">Data</h1>
@@ -73,6 +129,42 @@
           This project uses data from 2 sources: <br /><br />
           1. National Association of Realtors<br />
           2. Bureau of Economic Analysis. U.S. Department of Commerce.
+        </p>
+        <h1 class="overview-titles-text-padding">Additional Information</h1>
+        <p class="overview-titles-text-padding">
+          This is the final project for the module Introduction to Data
+          Analytics in Business of the
+          <a href="https://www.frankfurt-school.de/en/home" target="_blank"
+            >Frankfurt School of Finance & Management.</a
+          >
+        </p>
+        <p class="overview-titles-text-padding">
+          <strong>Lecturer: </strong><br /><br /><a
+            href="https://www.linkedin.com/in/lucas-b%C3%B6ttcher-9854a6149/"
+            target="_blank"
+            >Prof. Dr. Lucas Böttcher</a
+          >
+          <br /><br />
+        </p>
+        <p class="overview-titles-text-padding"><strong>Group:</strong></p>
+        <p class="overview-titles-text-padding">
+          <a href="https://www.linkedin.com/in/francosanchezt/" target="_blank"
+            >Franco Sánchez Torres</a
+          >
+        </p>
+        <p class="overview-titles-text-padding">
+          <a
+            href="https://www.linkedin.com/in/parth-shrivastava-453a011a3/"
+            target="_blank"
+            >Parth Shrivastava</a
+          >
+        </p>
+        <p class="overview-titles-text-padding">
+          <a
+            href="https://www.linkedin.com/in/rahul-singh-39a72a173/"
+            target="_blank"
+            >Rahul Singh</a
+          >
         </p>
       </div>
     </ion-content>
@@ -125,6 +217,7 @@ export default defineComponent({
 }
 .overview-titles-text-padding {
   padding: 0px 15px 0px 15px;
+  text-align: justify;
 }
 @media screen and (min-width: 460px) {
   .overview-width {

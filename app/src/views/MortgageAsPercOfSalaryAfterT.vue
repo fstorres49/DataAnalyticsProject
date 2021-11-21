@@ -26,19 +26,19 @@
         <iframe
           frameborder="0"
           style="border: 0"
-          src="https://public.tableau.com/views/Avg_SalarybyCounty2021Estimate/Dashboard1?:showVizHome=no&:embed=true"
+          src="https://public.tableau.com/views/MonthlyMortgagePaymentasPercentageofSalaryAfterTaxes2021/Dashboard1?:showVizHome=no&:embed=true"
           width="1176"
           height="840"
         ></iframe>
       </div>
       <div class="maposat-width">
         <h1 class="maposat-titles-text-padding">
-          Mortgage as Percentage of Salary After Taxes:
+          Mortgage as Percentage of Salary After Taxes
         </h1>
         <p class="maposat-titles-text-padding"></p>
-        <h1 class="maposat-titles-text-padding">Data:</h1>
+        <h1 class="maposat-titles-text-padding">Data</h1>
         <p class="maposat-titles-text-padding">
-          1. National Association of Realtors<br />
+          1. National Association of Realtors.<br />
           2. Bureau of Economic Analysis. U.S. Department of Commerce.
         </p>
       </div>

@@ -20,19 +20,11 @@
     </ion-header>
 
     <ion-content>
-      <div class="hv-tableau-visualization">
-        <iframe
-          frameborder="0"
-          style="border: 0"
-          src="https://public.tableau.com/views/Avg_SalarybyCounty2021Estimate/Dashboard1?:showVizHome=no&:embed=true"
-          width="1176"
-          height="840"
-        ></iframe>
-      </div>
+
       <div class="cv-width">
-        <h1 class="cv-titles-text-padding">Conclusions:</h1>
+        <h1 class="cv-titles-text-padding">Conclusions</h1>
         <p class="cv-titles-text-padding"></p>
-        <h1 class="cv-titles-text-padding">Data:</h1>
+        <h1 class="cv-titles-text-padding">Data</h1>
         <p class="cv-titles-text-padding"><br /></p>
       </div>
     </ion-content>
