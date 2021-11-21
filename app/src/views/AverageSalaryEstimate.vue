@@ -32,10 +32,10 @@
 
       <div class="asev-width">
         <h1 class="asev-titles-text-padding">
-          Annual Average Salary Before Taxes:
+          Annual Average Salary Before Taxes
         </h1>
         <p class="asev-titles-text-padding"></p>
-        <h1 class="asev-titles-text-padding">Data:</h1>
+        <h1 class="asev-titles-text-padding">Data</h1>
         <p class="asev-titles-text-padding">
           Bureau of Economic Analysis. U.S. Department of Commerce.
         </p>
