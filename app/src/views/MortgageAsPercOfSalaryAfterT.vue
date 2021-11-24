@@ -35,7 +35,22 @@
         <h1 class="maposat-titles-text-padding">
           Mortgage as Percentage of Salary After Taxes
         </h1>
-        <p class="maposat-titles-text-padding"></p>
+        <p class="maposat-titles-text-padding">
+          List of the counties with the highest monthly mortgage payment as
+          percentage of salary after taxes of 2021:<br/><br/>
+          1. Nantucket County, Massachusetts: 121%<br/>
+          2. Kings County, New York: 108%<br/>
+          3. Santa Cruz County, California: 102%<br/>
+          4. Teton County, Wyoming: 102%<br/>
+          5. Maui County, Hawaii: 96.2%<br/><br/>
+          List of the counties with the lowest monthly mortgage payment as
+          percentage of salary after taxes of 2021:<br/><br/>
+          1. Todd County, South Dakota: 4.1%<br/>
+          2. McDowell County, West Virginia: 5.05%<br/>
+          3. Hudspeth County, Texas: 5.60%<br/>
+          4. Kent County, Texas: 5.65%<br/>
+          5. Cochran County, Texas: 5.80%
+        </p>
         <h1 class="maposat-titles-text-padding">Data</h1>
         <p class="maposat-titles-text-padding">
           1. National Association of Realtors.<br />

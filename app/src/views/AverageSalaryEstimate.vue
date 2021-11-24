@@ -34,7 +34,22 @@
         <h1 class="asev-titles-text-padding">
           Annual Average Salary Before Taxes
         </h1>
-        <p class="asev-titles-text-padding"></p>
+        <p class="asev-titles-text-padding">
+          List of the counties with the highest annual average salary before
+          taxes of 2021:<br /><br />
+          1. Santa Clara County, California: $141,476<br />
+          2. San Mateo County, California: $135,354<br />
+          3. San Francisto County, California: $129,149<br />
+          4. New York County, New York: $127,990<br />
+          5. North Slope Borough, Alaska: $113,232<br /><br />
+          List of the counties with the lowest annual average salary before
+          taxes of 2021:<br /><br />
+          1. Clay County, West Virginia: $25,349<br />
+          2. Knott County, Kentucky: $25,610<br />
+          3. Issaquena County, Mississippi: $25,849<br />
+          4. Delta County, Texas: $27,164<br />
+          5. Malette County, South Dakota: $27,519
+        </p>
         <h1 class="asev-titles-text-padding">Data</h1>
         <p class="asev-titles-text-padding">
           Bureau of Economic Analysis. U.S. Department of Commerce.
