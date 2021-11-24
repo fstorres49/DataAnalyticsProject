@@ -34,8 +34,23 @@
 
       <div class="mmpv-width">
         <h1 class="mmpv-titles-text-padding">Monthly Mortgage Payment</h1>
-        <p class="mmpv-titles-text-padding"></p>
-        <h1 class="mmpv-titles-text-padding">Citation</h1>
+        <p class="mmpv-titles-text-padding">
+          List of the counties with the highest monthly mortgage payment of Q2
+          2021:<br /><br />
+          1. New York County, New York: $4,656<br />
+          2. Nantucket County, Massachusetts: $4,625<br />
+          3. San Mateo County, California: $4,535<br />
+          4. Santa Clara County, California: $4,505<br />
+          5. San Francisco County, California: $4,476<br /><br />
+          List of the counties with the lowest monthly mortgage payment
+          of Q2 2021:<br /><br />
+          1. Todd County, South Dakota: $110<br />
+          2. Malette County, South Dakota: $135<br />
+          3. McDowell County, West Virginia: $143<br />
+          4. Kent County, Texas: $150<br />
+          5. King County, Texas: $158
+        </p>
+        <h1 class="mmpv-titles-text-padding">Data</h1>
         <p class="mmpv-titles-text-padding">
           Copyright ©2021 “County Median Home Prices and Monthly Mortgage
           Payment.” NATIONAL ASSOCIATION OF REALTORS®. All rights reserved.

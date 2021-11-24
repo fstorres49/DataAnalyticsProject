@@ -34,8 +34,23 @@
 
       <div class="mhpv-width">
         <h1 class="mhpv-titles-text-padding">Median Home Prices</h1>
-        <p class="mhpv-titles-text-padding"></p>
-        <h1 class="mhpv-titles-text-padding">Citation</h1>
+        <p class="mhpv-titles-text-padding">
+          List of the counties with the highest median home price of Q2
+          2021:<br /><br />
+          1. New York County, New York: $1,227,108<br />
+          2. Nantucket County, Massachusetts: $1,218,781<br />
+          3. San Mateo County, California: $1,195,275<br />
+          4. Santa Clara County, California: $1,187,214<br />
+          5. San Francisco County, California: $1,179,676<br /><br />
+          List of the counties with the lowest median home price of Q2
+          2021:<br /><br />
+          1. Todd County, South Dakota: $28,896<br />
+          2. Malette County, South Dakota: $35,675<br />
+          3. McDowell County, West Virginia: $37,684<br />
+          4. Kent County, Texas: $39,652<br />
+          5. King County, Texas: $41,578
+        </p>
+        <h1 class="mhpv-titles-text-padding">Data</h1>
         <p class="mhpv-titles-text-padding">
           Copyright ©2021 “County Median Home Prices and Monthly Mortgage
           Payment.” NATIONAL ASSOCIATION OF REALTORS®. All rights reserved.

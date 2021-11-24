@@ -24,11 +24,11 @@
       <div class="overview-width">
         <h1 class="overview-titles-text-padding">Research Question</h1>
         <p class="overview-titles-text-padding">
-          Can an average american buy a house at current prices by counties?
+          Can an average American buy a house at current prices by counties?
         </p>
         <h1 class="overview-titles-text-padding">Methodology</h1>
         <p class="overview-titles-text-padding">
-          In order to answer the research question we performed an interval
+          In order to answer the research question, we performed an interval
           analysis. <br />First, we obtained the wages and salaries (US dollars)
           and the wage and salary employment (number of jobs) from 2010 to 2019
           from the Regional Economic Accounts (CAINC4) of the
@@ -36,34 +36,33 @@
             href="https://apps.bea.gov/regional/downloadzip.cfm"
             target="_blank"
             >Bureau of Economic Analysis - U.S Department of Commerce</a
-          >. <br /><br />Second, we extrapolated using a linear regression to
-          obtain the 2021 data of wage and salaries and wage and salary
-          employment. We divided both results and obtained the annual average
+          >. <br /><br />Second, we extrapolated wages and salaries (US dollars)
+          and wage and salary employment (number of jobs) with data from 2010 to
+          2019 using linear regression to obtain the 2021 data of those
+          variables. We divided both results and obtained the annual average
           salary by county before taxes for 2021. <br /><br />Third, we used the
           <a
             href="https://smartasset.com/taxes/paycheck-calculator"
             target="_blank"
           >
-            Asset Federal Paycheck Calculator</a
+            Smart Asset's Federal Paycheck Calculator</a
           >
           and assumed that the marital status of the average american is single,
           gets paid monthly, has a salary and is not exempt from taxes. Then, we
-          developed an script that uses as an input the average salary before
-          taxes that we calculated before and extracts the monthly "take home
-          salary" from the calculator.
+          developed a script that uses as input the average salary before taxes
+          and extracts the monthly "take home salary" from the calculator.
           <br /><br />Finally, we divided the monthly mortgage payment for Q2
           2021, obtained from the
           <a href="https://www.nar.realtor/" target="_blank">
             National Association of Realtors</a
           >, by the monthly "take home salary" to obtain the monthly mortgage
-          payment as percentage of the monthly average salary after taxes. The
-          interval analysis can be visualized in the Tableau Dashboard
+          payment as percentage of the monthly average salary after taxes. We
+          visualized the interval analysis in the Tableau Dashboard
           <a
             href="https://canamericansbuyahouse2021.netlify.app/mortgage-percentage-salary-after-taxes"
             target="_blank"
-            >"Mortgage as a Percentage of Salary"</a
+            >"Mortgage as a Percentage of Salary".</a
           >
-          from the menu on the top left corner of this web.
         </p>
         <h1 class="overview-titles-text-padding">Visualizations</h1>
         <p class="overview-titles-text-padding">
@@ -72,8 +71,11 @@
         </p>
         <h1 class="overview-titles-text-padding">Definitions</h1>
         <p class="overview-titles-text-padding">
-          <strong> Average American: </strong><br /><br />
-          American who receives Wages and Salaries.<br />
+          <strong> Average American (by county): </strong><br /><br />
+          An average American for this research is an American who receives the
+          mean wage and salary by county, this is obtained by dividing
+          wage and salaries by wage and salary employment (See definitions
+          below).<br />
           <br />
           <strong> Wages and Salaries:</strong><br /><br />
           The remuneration receivable by employees (including corporate
@@ -86,7 +88,7 @@
           defined contribution pension plans (Bureau of Economic Analysis. U.S.
           Department of Commerce).<br />
           <br />
-          <strong>Wage and salary employment:</strong><br /><br />
+          <strong>Wage and Salary Employment:</strong><br /><br />
           Wage and salary employment, also referred to as wage and salary jobs,
           measures the average annual number of full-time and part-time jobs in
           each area by place of work. All jobs for which wages and salaries are
@@ -101,8 +103,8 @@
           employment in industries not covered by UI (Bureau of Economic
           Analysis. U.S. Department of Commerce).<br />
           <br />
-          <strong> House at current prices: </strong><br /><br />
-          Median Home Price.<br />
+          <strong> House at Current Prices: </strong><br /><br />
+          Median home price (See definition below).<br />
           <br />
           <strong>Median Home Price: </strong><br /><br />Median home value for
           the 2nd quarter of 2021 was estimated for each county. Home values
@@ -140,7 +142,7 @@
         </p>
         <p class="overview-titles-text-padding">
           <strong>Lecturer: </strong><br /><br /><a
-            href="https://www.linkedin.com/in/lucas-b%C3%B6ttcher-9854a6149/"
+            href="https://www.frankfurt-school.de/en/home/research/staff/Lucas-Boettcher"
             target="_blank"
             >Prof. Dr. Lucas Böttcher</a
           >
