@@ -20,12 +20,21 @@
     </ion-header>
 
     <ion-content>
-
       <div class="cv-width">
         <h1 class="cv-titles-text-padding">Conclusions</h1>
-        <p class="cv-titles-text-padding"></p>
-        <h1 class="cv-titles-text-padding">Data</h1>
-        <p class="cv-titles-text-padding"><br /></p>
+        <p class="cv-titles-text-padding">
+          The Tableau dashboard "Monthly Mortgage Payment as Percentage of
+          Salary After Taxes" show the disparity among counties. With ratios at
+          their max in the East and West Coast, with some notable exceptions
+          such as Colorado, and ratios being the least in the midwest and
+          sparsely populated areas. <br /><br />
+          The majority of the west coast, including parts of the east and
+          densely populated counties, are becoming unaffordable for the average
+          American. With some parts taking more than 100% of the average salary
+          after taxes of people working in the same county (e.g. Nantucket
+          County, Massachusetts. Kings County, New York. Santa Cruz County,
+          California. Teton County, Wyoming).
+        </p>
       </div>
     </ion-content>
   </ion-page>
@@ -69,18 +78,13 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.hv-tableau-visualization {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 15px 0px 0px -11px;
-}
 .conclusions-icon-margin-size {
   margin: 0px 10px 0px 0px;
   font-size: 24px;
 }
 .cv-titles-text-padding {
   padding: 0px 15px 0px 15px;
+  text-align: justify;
 }
 @media screen and (min-width: 460px) {
   .cv-width {
